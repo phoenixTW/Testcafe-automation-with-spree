@@ -1,0 +1,5 @@
+.idea
+reports/html
+reports/screenshots
+TestResult
+node_modules

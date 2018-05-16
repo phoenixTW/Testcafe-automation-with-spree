@@ -1,0 +1,16 @@
+{
+  "name": "Testcafe-automation-with-spree",
+  "version": "1.0.0",
+  "description": "Playground of Test Cafe - test automation tool for VodQA May 2018 edition.",
+  "author": "Kaustav Chakraborty",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "node runner.js"
+  },
+  "dependencies": {
+    "testcafe": "0.19.2",
+    "testcafe-reporter-html-testrail": "2.0.0",
+    "glob": "7.1.2"
+  }
+}
