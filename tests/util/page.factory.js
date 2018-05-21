@@ -5,10 +5,14 @@ export default class PageFactory {
     }
 
     login() {
-        return this.appAddress + 'login'
+        return this.appAddress + 'login';
     }
 
     signup() {
-        return this.appAddress + 'signup'
+        return this.appAddress + 'signup';
+    }
+
+    home() {
+        return this.appAddress;
     }
 }
