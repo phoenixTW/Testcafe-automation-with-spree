@@ -12,4 +12,9 @@ export default class SearchModel {
             .click(this.searchButton);
     }
 
+    async searchWithKeyPress(t, query) {
+        return t
+            .typeText(this.searchField, query)
+            .pressKey('enter');
+    }
 }
